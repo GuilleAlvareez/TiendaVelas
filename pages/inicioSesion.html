@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="inicioSesion.css">
+        <link rel="icon" href="../svg/iconoPagina.svg" type="image/svg+xml">
+        <title>Elain</title>
+    </head>
+    <body>
+        <header>
+            <div id="logo-header">
+                <img src="../imagenes/LogoPagina.png" class="imagenes"/>
+            </div>
+    
+            <section id="navegation-header">
+                <button class="navegation-buttons"><a href="../index.html"> Productos Destacados</a></button>
+                <button class="navegation-buttons"><a href="../pages/catalogo.html">Catálogo</a></button>
+                <button class="navegation-buttons"><a href="../pages/blog.html">Blog</a></button>
+    
+                <button class="navegation-buttons">
+                    <img src="../svg/user.svg" class="svg"/>
+                </button>
+                <button class="navegation-buttons">
+                    <img src="../svg/carritoCompra.svg" class="svg"/>
+                </button>
+            </section>
+        </header>
+
+        <main class="container">
+            <div id="div-inicioSesion">
+                <h2 id="form-title">Iniciar Sesión</h2>
+                
+                <form id="login-form">
+                    <input type="email" id="login-email" placeholder="Correo electrónico" >
+                    <input type="password" id="login-password" placeholder="Contraseña" >
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+        
+                <form id="register-form" style="display: none;">
+                    <input type="text" id="register-name" placeholder="Nombre completo" >
+                    <input type="email" id="register-email" placeholder="Correo electrónico" >
+                    <input type="password" id="register-password" placeholder="Contraseña" >
+                    <button type="submit">Registrarse</button>
+                </form>
+        
+                <p id="toggle-text">
+                    ¿No tienes cuenta? <a href="#" id="toggle-form">Registrarse</a>
+                </p>
+            </div>
+        </main>
+    
+        <footer>
+            <div class="info-footer">
+                <img src="../imagenes/LogoPagina.png" alt="Logo de la Pagina" id="logo-footer"/>
+                <div class="footer-info">
+                    <p>Email: <a href="mailto:contacto@elain.com">contacto@elain.com</a></p>
+                    <p>Teléfono: <a href="tel:653236247">+34 653 23 62 47</a></p>
+                    <p>Dirección: IES Hermanos Machado</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Política de privacidad</a> 
+                    <a href="#">Términos y condiciones</a> 
+                    <a href="#">Política de devoluciones</a>
+                </div>
+                <div class="social-media">
+                    <button class="social-icons" data-url="https://www.facebook.com/" onclick="handleSocial()"><img src="./svg/facebook.svg" alt="Facebook" class="imagenes"/></button>
+                    <button class="social-icons" data-url="https://www.instagram.com/candelarosashop/?hl=es" onclick="handleSocial()"><img src="../svg/instagram.svg" alt="Instagram" class="imagenes"/></button>
+                    <button class="social-icons" data-url="https://twitter.com/" onclick="handleSocial()"><img src="../svg/twitter.svg" alt="Twitter" class="imagenes"/></button>
+                </div>
+            </div>
+            <p class="copyright">© 2024 ELAIN. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>

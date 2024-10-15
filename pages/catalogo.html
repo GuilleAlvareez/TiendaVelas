@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesCatalogo.css">
+    <link rel="icon" href="../svg/iconoPagina.svg" type="image/svg+xml"> 
+    <title>Elain</title>
+</head>
+<body>
+    <header>
+        <div id="logo-header">
+            <img src="../imagenes/LogoPagina.png" class="imagenes"/>
+        </div>
+
+        <section id="navegation-header">
+            <button class="navegation-buttons"><a href="../index.html"> Productos Destacados</a></button>
+            <button class="navegation-buttons"><a href="catalogo.html">Catálogo</a></button>
+            <button class="navegation-buttons"><a href="blog.html">Blog</a></button>
+
+            <button onclick="window.location.href='../pages/inicioSesion.html'" class="navegation-buttons">
+                <img src="../svg/user.svg" class="svg"/>
+            </button>
+            <button class="navegation-buttons">
+                <img src="../svg/carritoCompra.svg" class="svg"/>
+            </button>
+        </section>
+    </header>
+
+
+    
+    <main>
+        <!-- Sección de Velas Aromáticas -->
+        <h2>Velas Aromáticas</h2>
+        <section class="Velas">
+            <article class="card-products2">
+                <img src="../imagenes/velaCoco.png" alt="fotoVelaCoco" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Coco</h4>
+                    <label class="price-product">10$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+        
+            <article class="card-products2">
+                <img src="../imagenes/velaAromatica.png" alt="fotoVelaLavanda" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Lavanda</h4>
+                    <label class="price-product">12$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaCanela.png" alt="fotoVelaCanela" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Canela</h4>
+                    <label class="price-product">11$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaVainilla.png" alt="fotoVelaVainilla" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Vainilla</h4>
+                    <label class="price-product">13$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+        </section>
+
+        <!-- Sección de Velas Decorativas -->
+        <h2>Velas Decorativas</h2>
+        <section class="Velas">
+            <article class="card-products2">
+                <img src="../imagenes/velaFlor.png" alt="fotoVelaFlor" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela en Forma de Flor</h4>
+                    <label class="price-product">15$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaGeometrica.png" alt="fotoVelaGeometrica" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela Geométrica</h4>
+                    <label class="price-product">18$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaEsfera.png" alt="fotoVelaEsfera" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela en Forma de Esfera</h4>
+                    <label class="price-product">17$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaPiramide.png" alt="fotoVelaPiramide" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela en Forma de Pirámide</h4>
+                    <label class="price-product">19$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+        </section>
+
+        <!-- Sección de Velas Especiales -->
+        <h2>Velas Especiales</h2>
+        <section class="Velas">
+            <article class="card-products2">
+                <img src="../imagenes/velaCumpleaños.png" alt="fotoVelaCumpleaños" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Cumpleaños</h4>
+                    <label class="price-product">7$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaNavidad.png" alt="fotoVelaNavidad" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Navidad</h4>
+                    <label class="price-product">20$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaHalloween.png" alt="fotoVelaHalloween" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de Halloween</h4>
+                    <label class="price-product">16$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+
+            <article class="card-products2">
+                <img src="../imagenes/velaSanValentin.png" alt="fotoVelaSanValentin" class="products-image"/>
+                <div class="info-products2">
+                    <h4 class="name-products">Vela de San Valentín</h4>
+                    <label class="price-product">22$</label>
+                    <button class="buttons-buy" onclick="buyProduct()">Comprar</button>
+                </div>  
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="info-footer">
+            <img src="../imagenes/LogoPagina.png" alt="Logo de la Pagina" id="logo-footer"/>
+            <div class="footer-info">
+                <p>Email: <a href="mailto:contacto@elain.com">contacto@elain.com</a></p>
+                <p>Teléfono: <a href="tel:653236247">+34 653 23 62 47</a></p>
+                <p>Dirección: IES Hermanos Machado</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Política de privacidad</a> 
+                <a href="#">Términos y condiciones</a> 
+                <a href="#">Política de devoluciones</a>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="../svg/facebook.svg" alt="Facebook" class="social-icon"/></a>
+                <a href="#"><img src="../svg/instagram.svg" alt="Instagram" class="social-icon"/></a>
+                <a href="#"><img src="../svg/twitter.svg" alt="Twitter" class="social-icon"/></a>
+            </div>
+        </div>
+        <p class="copyright">© 2024 ELAIN. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scriptCatalogo.js"></script>
+</body>
+</html>

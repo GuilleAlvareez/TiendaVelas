@@ -1,0 +1,288 @@
+html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #B8C1B1;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+}
+
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7CFC4;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+#navegation-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.navegation-buttons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B8C1B1;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    font-size: large;
+}
+
+.navegation-buttons:hover{
+    background-color: #9ba395;
+}
+
+#logo-header {
+    width: 10%;
+}
+
+.imagenes {
+    width: 80%;
+    height: 80%;
+}
+
+.svg {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.svg-buttons {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.article-home {
+    display: relative;
+    width: 100%;
+    height: 70%;
+    background-image: url('./imagenes/velas.png');
+    background-size: contain;
+}
+
+#text-home {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size:x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#best-products {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#div-best-products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.card-products {
+    background-color: #F1E9DD;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin: 20px;
+    height: auto;
+    width: 250px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-products:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.products-image {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.name-products {
+    font-size: larger;
+    text-align: center;
+}
+
+.info-products {
+    width: 100%;
+    padding: 10px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.buttons-buy {
+    width: 30%;
+    height: 1.5rem;
+    border: 0;
+    border-radius: 4px;
+    background-color: #9E7659;
+    color: white;
+}
+
+.buttons-buy:hover {
+    background-color: #8c694f;
+    transition: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+#blog-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-resume {
+    display: flex;
+    width: 60%;
+    height: 430px;
+    margin-bottom: 40px;
+}
+
+.blog-post {
+    width: 0px;
+    flex-grow: 1;
+    opacity: .8;
+    transition: .5s ease;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.blog-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+#logo-footer {
+    width: 20%;
+    height: 35%;
+}
+
+.info-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-info {
+    gap: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media {
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-right: 10px;
+    border: 0;
+    background-color: #D7CFC4;
+}
+
+.copyright {
+    font-size: 0.9rem;
+}
