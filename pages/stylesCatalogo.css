@@ -165,6 +165,12 @@ footer {
     margin-bottom: 15px;
 }
 
+.social-icons {
+    margin-right: 10px;
+    border: 0;
+    background-color: #D7CFC4;
+}
+
 
 .copyright {
     font-size: 0.9rem; 
